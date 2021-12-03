@@ -94,7 +94,7 @@ class Passaro:
 
 
 class Cano:
-    DISTANCIA = 200
+    DISTANCIA = 250
     VELOCIDADE = 5
 
     def __init__(self, x):
@@ -183,7 +183,7 @@ def main():
 
     rodando = True
     while rodando:
-        relogio.tick(30)
+        relogio.tick(60)
 
         # interação com o usuário
         for evento in pygame.event.get():
